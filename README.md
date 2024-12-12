@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in unsafe Rust code. The `bug.rs` file contains code that modifies a vector via a raw pointer and then pushes a new element, which can lead to undefined behavior due to potential pointer invalidation. The `bugSolution.rs` file shows a safer, more idiomatic way to achieve the same result.
